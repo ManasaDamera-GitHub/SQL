@@ -66,3 +66,14 @@ To Insert data into the created table:
 syntax:
 --------
 INSERT INTO table_name(column1,column2,....)VALUES(value1,value2,.....)
+
+Create Table from another table:
+--------------------------------
+->We can also create a new table based on the structure of an existing table.
+
+syntax:
+-------
+CREATE TABLE new_table_name AS
+SELECT column1,column2,.....
+FROM existing_table_name
+WHERE .....;
