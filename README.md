@@ -80,4 +80,34 @@ WHERE .....;
 
 **NOTE**  :
 The DESC table_name; command can be used to display the structure of the created table.
-If you try to create a table that already exists, MySQL will throw an error. To avoid this, you can use the CREATE TABLE IF NOT EXISTS syntax
+If you try to create a table that already exists, MySQL will throw an error. To avoid this, you can use the CREATE TABLE IF NOT EXISTS syntax.
+
+SQL SELECT Query:
+--------------------
+-> It is one of the most commonly used SQL commands to retrive data from a database.
+-> We use SELECT queries for data manipulation and analysis.
+-> It allows users to access the data and retrive specific data based on specific conditions.
+
+syntax:
+--------
+SELECT column1,column2.... FROM table_name;
+
+Example1: Retrieve data using SELECT Query
+---------------------------------------------
+SELECT CustomerName,LastName FROM Customer;
+
+Example2: Fetch all table using SELECT Statement
+---------------------------------------------------
+-> We will fetch all the fields from the table customer
+
+Query
+------
+SELECT * FROM Customer;
+
+Example3: SELECT Statement with WHERE Clause
+------------------------------------------------
+-> Suppose we want to see table values with specific conditions then WHERE Clause os used with select statement.
+
+Query:
+------
+SELECT CustomerName FROM Customer WHERE Age ='21';
