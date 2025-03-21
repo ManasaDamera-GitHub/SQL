@@ -50,11 +50,19 @@ CREATING TABLES and Adding data:
 
 Syntax:
 --------
-CREATE tabletable_name
+CREATE TABLE table_name
 (
-Column1 datatype(size),
+Column1 datatype(size),    //names of the columns in the table
 column2 datatype(size),
 .
 .
 columnN datatype(size)
-):
+);
+
+To Insert data into the created table:
+--------------------------------------
+->To insert data into table use the following Command
+
+syntax:
+--------
+INSERT INTO table_name(column1,column2,....)VALUES(value1,value2,.....)
