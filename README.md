@@ -1,6 +1,7 @@
 # SQL
 
 What is sql?
+
 SQL is a standard database language used to create,maintain,destroy,update and retrive data from relational databases.
 
 Day1:
@@ -42,3 +43,18 @@ DELETE a database in SQL:
 Syntax:
 --------
 DROP DATABASE database_name
+
+CREATING TABLES and Adding data:
+-----------------------------------
+->To create a table use the following command
+
+Syntax:
+--------
+CREATE tabletable_name
+(
+Column1 datatype(size),
+column2 datatype(size),
+.
+.
+columnN datatype(size)
+):
