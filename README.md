@@ -78,6 +78,6 @@ SELECT column1,column2,.....
 FROM existing_table_name
 WHERE .....;
 
-**NOTE**
+**NOTE**  :
 The DESC table_name; command can be used to display the structure of the created table.
 If you try to create a table that already exists, MySQL will throw an error. To avoid this, you can use the CREATE TABLE IF NOT EXISTS syntax
